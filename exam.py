@@ -46,6 +46,7 @@ def thirdtask(text):
     for surname in surnames:
         if not os.path.exists(surname):
             os.makedirs(surname)
+    #дальше не успела
 
 def main():
     reading = readfile(r'C:\Users\student\Desktop\михайловский дворец.txt')
